@@ -27,7 +27,7 @@
     <!-- Navbar -->
     <?php include('../components/navbar.html'); ?>
     
-    <div class="parallax" style="background-image: url(/res/010101.png)">
+    <div class="parallax" style="background-image: url(/res/010101.jpg)">
         <div class="container">
             <div class="content-tab">
                 <h1>Web Utils</h1>
