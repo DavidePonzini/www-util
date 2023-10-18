@@ -13,9 +13,9 @@
 <pre>' . print_r($_FILES, true) . '</pre>
 
 <h1>Usage (POST - application/x-www-form-urlencoded)</h1>
-<pre>curl url -d "a=1&b=2"</pre>
+<pre>curl ' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'] . ' -d "a=1&b=2"</pre>
 
 <h1>Usage (POST - multipart/form-data)</h1>
-<pre>curl url -F "a=1" -F "b=2" -F "c=@/path/to/file"</pre>
+<pre>curl ' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'] . ' -F "a=1" -F "b=2" -F "c=@/path/to/file"</pre>
 ';
 ?>
