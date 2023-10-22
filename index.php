@@ -54,6 +54,15 @@
                         <div class="card">
                             <img class="card-img-top" src="/res/010101.jpg">
                             <div class="card-body">
+                                <h5 class="card-title">Password generator</h5>
+                                <p class="card-text">Random password generator.</p>
+                                <a href="pwd-gen.php" class="btn btn-primary">Open</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="/res/010101.jpg">
+                            <div class="card-body">
                                 <h5 class="card-title">Password hasher</h5>
                                 <p class="card-text">Calculate password hash for a given plain string.</p>
                                 <a href="pwd-hash.php" class="btn btn-primary">Open</a>
