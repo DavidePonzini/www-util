@@ -9,28 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>// Utils</title>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- Boostrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
-
-    <!-- Custom -->
-    <link rel="stylesheet" href="/styles/_common.css">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/social.css">
+    <!-- Imports -->
+    <?php include('../components/imports.html'); ?>
 
     <!-- Policies -->
-    <?php include('components/head_policies.html'); ?>
+    <?php include('../components/head_policies.html'); ?>
 </head>
 <body>
     <!-- Navbar -->
     <?php include('../components/navbar.html'); ?>
     
-    <div class="parallax" style="background-image: url(/res/010101.jpg)">
+    <div class="parallax" style="background-image: url(/res/server-bg.png)">
         <div class="container">
             <div class="content-tab">
-                <h1>Web Utils</h1>
+                <h1>Common</h1>
                 <div class="row center">
                     <div class="col-lg links">
                         <div class="card">
@@ -43,29 +35,44 @@
                         </div>
                     
                         <div class="card">
-                            <img class="card-img-top" src="/res/html.jpg">
-                            <div class="card-body">
-                                <h5 class="card-title">HTTP Code</h5>
-                                <p class="card-text">HTTP response code selector.</p>
-                                <a href="http-code.php" class="btn btn-primary">Open</a>
-                            </div>
-                        </div>
-
-                        <div class="card">
                             <img class="card-img-top" src="/res/010101.jpg">
                             <div class="card-body">
                                 <h5 class="card-title">Password generator</h5>
                                 <p class="card-text">Random password generator.</p>
-                                <a href="pwd-gen.php" class="btn btn-primary">Open</a>
+                                <a href="pwd-gen/" class="btn btn-primary">Open</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="separator">
+        <?php include('components/ads_banner.html'); ?>
+    </div>
+
+    <div class="parallax" style="background-image: url(/res/010101.jpg)">
+        <div class="container">
+            <div class="content-tab">
+                <h1>Debugging</h1>
+                <div class="row center">
+                    <div class="col-lg links">
                         <div class="card">
                             <img class="card-img-top" src="/res/010101.jpg">
                             <div class="card-body">
                                 <h5 class="card-title">Password hasher</h5>
                                 <p class="card-text">Calculate password hash for a given plain string.</p>
                                 <a href="pwd-hash.php" class="btn btn-primary">Open</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="/res/html.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">HTTP Code</h5>
+                                <p class="card-text">HTTP response code selector.</p>
+                                <a href="http-code.php" class="btn btn-primary">Open</a>
                             </div>
                         </div>
 

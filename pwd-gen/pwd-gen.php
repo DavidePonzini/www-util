@@ -19,16 +19,20 @@
     
         $all = '';
         $password = '';
+
+        # fill mandatory characters
         foreach($sets as $set)
         {
             $password .= $set[array_rand(str_split($set))];
             $all .= $set;
         }
     
+        # fill remaining characters
         $all = str_split($all);
         for($i = 0; $i < $length - count($sets); $i++)
             $password .= $all[array_rand($all)];
     
+        # randomize password
         $password = str_shuffle($password);
     
         return $password;
@@ -39,10 +43,28 @@
     else
         $len = 9;
 
+
+    $sets = '';
     if(isset($_GET['sets']))
         $sets = $_GET['sets'];
-    else
-        $sets = 'luds';
-
-    echo generateStrongPassword($len, $sets);
+    else {
+        if(isset($_GET['charactersL']))
+            $sets .= 'l';
+        if(isset($_GET['charactersU']))
+            $sets .= 'u';
+        if(isset($_GET['charactersD']))
+            $sets .= 'd';
+        if(isset($_GET['charactersS']))
+            $sets .= 's';
+    }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><?php echo 'PWG_GEN: ' . $sets . ' ' . $len; ?></title>
+</head>
+<body>
+    <pre><?php echo htmlspecialchars(generateStrongPassword($len, $sets)); ?></pre>
+</body>
+</html>
