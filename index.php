@@ -25,23 +25,23 @@
                 <h1>Common</h1>
                 <div class="row center">
                     <div class="col-lg links">
-                        <div class="card">
+                        <a href="regex/" class="card">
                             <img class="card-img-top" src="/res/html.jpg">
                             <div class="card-body">
                                 <h5 class="card-title">Regex</h5>
                                 <p class="card-text">Run any Regex on given text.</p>
-                                <a href="regex/" class="btn btn-primary">Open</a>
+                                <span class="btn btn-primary">Open</span>
                             </div>
-                        </div>
+                        </a>
                     
-                        <div class="card">
+                        <a href="pwd-gen/" class="card">
                             <img class="card-img-top" src="/res/010101.jpg">
                             <div class="card-body">
                                 <h5 class="card-title">Password generator</h5>
                                 <p class="card-text">Random password generator.</p>
-                                <a href="pwd-gen/" class="btn btn-primary">Open</a>
+                                <span class="btn btn-primary">Open</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -58,41 +58,41 @@
                 <h1>Debugging</h1>
                 <div class="row center">
                     <div class="col-lg links">
-                        <div class="card">
+                        <a href="pwd-hash.php" class="card">
                             <img class="card-img-top" src="/res/010101.jpg">
                             <div class="card-body">
                                 <h5 class="card-title">Password hasher</h5>
                                 <p class="card-text">Calculate password hash for a given plain string.</p>
-                                <a href="pwd-hash.php" class="btn btn-primary">Open</a>
+                                <span class="btn btn-primary">Open</span>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="card">
+                        <a href="http-code.php" class="card">
                             <img class="card-img-top" src="/res/html.jpg">
                             <div class="card-body">
                                 <h5 class="card-title">HTTP Code</h5>
                                 <p class="card-text">HTTP response code selector.</p>
-                                <a href="http-code.php" class="btn btn-primary">Open</a>
+                                <span class="btn btn-primary">Open</span>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="card">
+                        <a href="request.php" class="card">
                             <img class="card-img-top" src="/res/server-bg.png">
                             <div class="card-body">
                                 <h5 class="card-title">PHP Request</h5>
                                 <p class="card-text">Display server-side HTTP GET/POST request data.</p>
-                                <a href="request.php" class="btn btn-primary">Open</a>
+                                <span class="btn btn-primary">Open</span>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="card">
+                        <a href="server.php" class="card">
                             <img class="card-img-top" src="/res/server-bg.png">
                             <div class="card-body">
                                 <h5 class="card-title">PHP $_SERVER</h5>
                                 <p class="card-text">Display the content of $_SERVER.</p>
-                                <a href="server.php" class="btn btn-primary">Open</a>
+                                <span class="btn btn-primary">Open</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
