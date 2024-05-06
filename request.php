@@ -3,6 +3,9 @@
 <h1>Request method</h1>
 <p>' . $_SERVER['REQUEST_METHOD'] . '</p>
 
+<h1>Headers</h1>
+<pre>' . print_r(getallheaders(), true) . '</pre>
+
 <h1>$_GET</h1>
 <pre>' . print_r($_GET, true) . '</pre>
 
