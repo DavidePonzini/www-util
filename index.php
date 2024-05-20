@@ -76,7 +76,7 @@
                             </div>
                         </a>
 
-                        <a href="request-min.php" class="card">
+                        <a href="request-simple.php" class="card">
                             <img class="card-img-top" src="/res/server-bg.png">
                             <div class="card-body">
                                 <h5 class="card-title">PHP Request (simplified)</h5>
