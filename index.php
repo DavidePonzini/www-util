@@ -25,15 +25,6 @@
                 <h1>Common</h1>
                 <div class="row center">
                     <div class="col-lg links">
-                        <a href="regex/" class="card">
-                            <img class="card-img-top" src="/res/html.jpg">
-                            <div class="card-body">
-                                <h5 class="card-title">Regex</h5>
-                                <p class="card-text">Run any Regex on given text.</p>
-                                <span class="btn btn-primary">Open</span>
-                            </div>
-                        </a>
-                    
                         <a href="pwd-gen/" class="card">
                             <img class="card-img-top" src="/res/010101.jpg">
                             <div class="card-body">
@@ -55,7 +46,7 @@
     <div class="parallax" style="background-image: url(/res/010101.jpg)">
         <div class="container">
             <div class="content-tab">
-                <h1>Debugging</h1>
+                <h1>Web development</h1>
                 <div class="row center">
                     <div class="col-lg links">
                         <a href="pwd-hash.php" class="card">
@@ -80,7 +71,16 @@
                             <img class="card-img-top" src="/res/server-bg.png">
                             <div class="card-body">
                                 <h5 class="card-title">PHP Request</h5>
-                                <p class="card-text">Display server-side HTTP GET/POST request data.</p>
+                                <p class="card-text">Display server-side request data.</p>
+                                <span class="btn btn-primary">Open</span>
+                            </div>
+                        </a>
+
+                        <a href="request-min.php" class="card">
+                            <img class="card-img-top" src="/res/server-bg.png">
+                            <div class="card-body">
+                                <h5 class="card-title">PHP Request (simplified)</h5>
+                                <p class="card-text">Display server-side HTTP request data. Only GET/POST/FILES are shown.</p>
                                 <span class="btn btn-primary">Open</span>
                             </div>
                         </a>
@@ -98,6 +98,31 @@
             </div>
         </div>
     </div>
+
+    <div class="separator">
+        <?php include('components/ads_banner.html'); ?>
+    </div>
+
+    <div class="parallax" style="background-image: url(/res/server-bg.png)">
+        <div class="container">
+            <div class="content-tab">
+                <h1>Other</h1>
+                <div class="row center">
+                    <div class="col-lg links">
+                        <a href="regex/" class="card">
+                            <img class="card-img-top" src="/res/html.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Regex</h5>
+                                <p class="card-text">Run any Regex on given text.</p>
+                                <span class="btn btn-primary">Open</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="separator">
         <?php include('../components/ads_banner.html'); ?>
