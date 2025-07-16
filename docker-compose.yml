@@ -1,0 +1,8 @@
+services:
+  webui:
+    build: .
+    image: davideponzini/www_apache_utils
+    container_name: www_apache_utils
+    restart: unless-stopped
+    ports:
+      - "80:80"
