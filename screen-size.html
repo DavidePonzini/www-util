@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Size</title>
+</head>
+<body>
+    <div id="size"></div>
+
+    <script>
+        function updateSize() {
+            document.getElementById("size").textContent =
+                `${window.innerWidth} × ${window.innerHeight}`;
+        }
+
+        updateSize();
+        window.addEventListener("resize", updateSize);
+    </script>
+</body>
+</html>
