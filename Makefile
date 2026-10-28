@@ -5,7 +5,7 @@ PORT=10022
 
 .PHONY: build push
 
-build: 
+build:
 	docker build -t davideponzini/www_apache_utils:latest .
 
 run: build

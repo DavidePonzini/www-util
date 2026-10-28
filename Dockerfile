@@ -1,4 +1,4 @@
-FROM php:8.2-apache
+FROM php:apache
 
 # Expose HTTP port
 EXPOSE 80
